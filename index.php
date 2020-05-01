@@ -13,11 +13,11 @@
     </head>
     <body>
         <div class="container">
-            <div class="row">
-                <div class="jumbotron mt-3 mb-3">
-                    <h1>Formulario mercado pago</h1>
-                </div>
-                <div class="col-md-12">
+            <div class="row mb-3">
+                    <div class="col-md-12">
+                        <div class="jumbotron mt-3 mb-3">
+                        <h1>Formulario mercado pago</h1>
+                    </div>
                     <form class="" action="/procesar_pago" method="post" id="pay" name="pay" >
                         <div class="form-row">
                                 <div class="form-group col-md-12">
