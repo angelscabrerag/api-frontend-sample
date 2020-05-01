@@ -80,7 +80,7 @@
         <script src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js"></script>
 
         <script>
-            window.Mercadopago.setPublishableKey("TEST-1c74244c-6af5-4925-ae89-38fcd057cf5b");
+            window.Mercadopago.setPublishableKey("TEST-PUBLIC-API-KEY");
 
             window.Mercadopago.getIdentificationTypes();
 
