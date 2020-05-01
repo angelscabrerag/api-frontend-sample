@@ -39,7 +39,7 @@
                                 </div>                                    
                                 <div class="form-group col-md-12">
                                     <label for="cardExpirationMonth">Mes de vencimiento</label>
-                                    <input type="text" id="cardExpirationMonth" data-checkout="cardExpirationMonth" onselectstart="return false" onpaste="return false" onCopy="return false" onCut="return false" onDrag="return false" onDrop="return false" autocomplete=off />
+                                    <input class="form-control" type="text" id="cardExpirationMonth" data-checkout="cardExpirationMonth" onselectstart="return false" onpaste="return false" onCopy="return false" onCut="return false" onDrag="return false" onDrop="return false" autocomplete=off />
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="cardExpirationYear">Año de vencimiento</label>
