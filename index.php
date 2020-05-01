@@ -20,7 +20,6 @@
                 <div class="col-md-12">
                     <form class="" action="/procesar_pago" method="post" id="pay" name="pay" >
                         <div class="form-row">
-                            <fieldset>
                                 <div class="form-group col-md-12">
                                     <label for="description">Descripción</label>                        
                                     <input class="form-control" type="text" name="description" id="description" value="Ítem seleccionado"/>
@@ -68,9 +67,8 @@
 
                                 <input type="hidden" name="payment_method_id" id="payment_method_id"/>
 
-                                <button type="submit" class"btn btn-block">Pagar</button>
-                            </fieldset>
                         </div>
+                        <button type="submit" class"btn btn-primary btn-block">Pagar</button>
                     </form>
                  </div>
              </div>
