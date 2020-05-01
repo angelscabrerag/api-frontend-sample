@@ -12,58 +12,60 @@
 
     </head>
     <body>
-        <div>
-            <form action="/procesar_pago" method="post" id="pay" name="pay" >
-                <fieldset>
-                    <p>
-                        <label for="description">Descripción</label>                        
-                        <input type="text" name="description" id="description" value="Ítem seleccionado"/>
-                    </p>                    
-                    <p>
-                        <label for="transaction_amount">Monto a pagar</label>                        
-                        <input name="transaction_amount" id="transaction_amount" value="100"/>
-                    </p>
-                    <p>
-                        <label for="cardNumber">Número de la tarjeta</label>
-                        <input type="text" id="cardNumber" data-checkout="cardNumber" onselectstart="return false" onpaste="return false" onCopy="return false" onCut="return false" onDrag="return false" onDrop="return false" autocomplete=off />
-                    </p>
-                    <p>
-                        <label for="cardholderName">Nombre y apellido</label>
-                        <input type="text" id="cardholderName" data-checkout="cardholderName" />
-                    </p>                                    
-                    <p>
-                        <label for="cardExpirationMonth">Mes de vencimiento</label>
-                        <input type="text" id="cardExpirationMonth" data-checkout="cardExpirationMonth" onselectstart="return false" onpaste="return false" onCopy="return false" onCut="return false" onDrag="return false" onDrop="return false" autocomplete=off />
-                    </p>
-                    <p>
-                        <label for="cardExpirationYear">Año de vencimiento</label>
-                        <input type="text" id="cardExpirationYear" data-checkout="cardExpirationYear" onselectstart="return false" onpaste="return false" onCopy="return false" onCut="return false" onDrag="return false" onDrop="return false" autocomplete=off />
-                    </p>
-                    <p>
-                        <label for="securityCode">Código de seguridad</label>
-                        <input type="text" id="securityCode" data-checkout="securityCode" onselectstart="return false" onpaste="return false" onCopy="return false" onCut="return false" onDrag="return false" onDrop="return false" autocomplete=off />
-                    </p>
-                    <p>
-                       <label for="installments">Cuotas</label>
-                       <select id="installments" class="form-control" name="installments"></select>
-                    </p>
-                    <p>
-                        <label for="docType">Tipo de documento</label>
-                        <select id="docType" data-checkout="docType"></select>
-                    </p>
-                    <p>
-                        <label for="docNumber">Número de documento</label>
-                        <input type="text" id="docNumber" data-checkout="docNumber"/>
-                    </p>
-                    <p>
-                        <label for="email">E-mail</label>
-                        <input type="email" id="email" name="email" value="test@test.com"/>
-                    </p>  
-                    
-                    <input type="hidden" name="payment_method_id" id="payment_method_id"/>
-                    
-                    <input type="submit" value="Pagar"/>
-                </fieldset>
+        <div class="container">
+            <form class="" action="/procesar_pago" method="post" id="pay" name="pay" >
+                <div class="form-row">
+                    <fieldset>
+                        <div class="form-group col-md-12">
+                            <label for="description">Descripción</label>                        
+                            <input class="form-control" type="text" name="description" id="description" value="Ítem seleccionado"/>
+                        </div>                    
+                        <div class="form-group col-md-12">
+                            <label for="transaction_amount">Monto a pagar</label>                        
+                            <input class="form-control" name="transaction_amount" id="transaction_amount" value="100"/>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="cardNumber">Número de la tarjeta</label>
+                            <input class="form-control" type="text" id="cardNumber" data-checkout="cardNumber" onselectstart="return false" onpaste="return false" onCopy="return false" onCut="return false" onDrag="return false" onDrop="return false" autocomplete=off />
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="cardholderName">Nombre y apellido</label>
+                            <input class="form-control" type="text" id="cardholderName" data-checkout="cardholderName" />
+                        </div>                                    
+                        <div class="form-group col-md-12">
+                            <label for="cardExpirationMonth">Mes de vencimiento</label>
+                            <input type="text" id="cardExpirationMonth" data-checkout="cardExpirationMonth" onselectstart="return false" onpaste="return false" onCopy="return false" onCut="return false" onDrag="return false" onDrop="return false" autocomplete=off />
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="cardExpirationYear">Año de vencimiento</label>
+                            <input class="form-control" type="text" id="cardExpirationYear" data-checkout="cardExpirationYear" onselectstart="return false" onpaste="return false" onCopy="return false" onCut="return false" onDrag="return false" onDrop="return false" autocomplete=off />
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="securityCode">Código de seguridad</label>
+                            <input class="form-control" type="text" id="securityCode" data-checkout="securityCode" onselectstart="return false" onpaste="return false" onCopy="return false" onCut="return false" onDrag="return false" onDrop="return false" autocomplete=off />
+                        </div>
+                        <div class="form-group col-md-12">
+                           <label for="installments">Cuotas</label>
+                           <select class="form-control" id="installments" class="form-control" name="installments"></select>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="docType">Tipo de documento</label>
+                            <select class="form-control" id="docType" data-checkout="docType"></select>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="docNumber">Número de documento</label>
+                            <input class="form-control" type="text" id="docNumber" data-checkout="docNumber"/>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="email">E-mail</label>
+                            <input class="form-control" type="email" id="email" name="email" value="test@test.com"/>
+                        </div>  
+
+                        <input type="hidden" name="payment_method_id" id="payment_method_id"/>
+
+                        <input type="submit" class"btn btn-block" value="Pagar"/>
+                    </fieldset>
+                </div>
             </form>
         </div>
             
