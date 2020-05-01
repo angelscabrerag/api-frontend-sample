@@ -68,7 +68,7 @@
 
                                 <input type="hidden" name="payment_method_id" id="payment_method_id"/>
 
-                                <input type="submit" class"btn btn-block" value="Pagar"/>
+                                <button type="submit" class"btn btn-block">Pagar</button>
                             </fieldset>
                         </div>
                     </form>
