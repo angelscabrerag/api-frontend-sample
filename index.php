@@ -68,7 +68,7 @@
                                 <input type="hidden" name="payment_method_id" id="payment_method_id"/>
 
                         </div>
-                        <button type="submit" class"btn btn-primary btn-block">Pagar</button>
+                        <button type="submit" class="btn btn-primary btn-block">Pagar</button>
                     </form>
                  </div>
              </div>
